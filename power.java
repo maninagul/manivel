@@ -1,17 +1,11 @@
-
+package string;
 public class power {
 
 	public static void main(String[] args) {
-    int a=17;  
-    if(((~a) & 1) == 1)  
-    {  
-        System.out.println("power of two");  
-    }  
-    else  
-    {
-        System.out.println("NOT A power of two"); 
+		String s="This   is a    wromg   statement";
+		s=s.replaceAll("\\s+", " ");
+		System.out.println(s); 
 
 	}
 
-}
 }
