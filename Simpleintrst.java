@@ -6,8 +6,8 @@ public class Simpleintrst {
 		Scanner s=new Scanner(System.in);
 		int p=s.nextInt();
 		int n=s.nextInt();
-		int r=s.nextInt();
-		int x=((p*n*r)/100);
+		float r=s.nextInt();
+		double x=((p*n*r)/100);
 		System.out.println(x);
 
 	}
